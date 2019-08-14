@@ -1,0 +1,90 @@
+body {
+  min-width: 600px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+  margin-top: 35px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#unit {
+  margin-left: 5px;
+  color: #7777;
+}
+
+.btn {
+  width: 100%;
+  font-size: 0.8em;
+}
+
+.footer img {
+  width: 15px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.footer img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.col.s12 > .btn {
+  width: 100%;
+}
+
+.btn{
+  background-color: black
+}
+
+.btn:visited{
+  background-color: black
+}
+
+.btn:hover {
+  background-color: black
+}
+
+.btn:active{
+  background-color: black;
+}
+
+.input-field label {
+  color: #656565 !important;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #000 !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+.input-field .prefix.active {
+  color: #000 !important;
+}
+
+.dropdown-content li>span {
+  color: #000 !important;
+  font-size: 14px !important;
+}
+
+.select-wrapper input.select-dropdown {
+  font-size: 14px !important;
+}
+
+input[type=number]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #000 !important;
+  -webkit-box-shadow: 0 1px 0 0 #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
